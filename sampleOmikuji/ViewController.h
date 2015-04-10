@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+    
+- (IBAction)alertButton:(id)sender;
+
 
 @end
 
